@@ -115,22 +115,227 @@
   ]
         },
         {
-          "title": "Tema 2 - Álgebra",
-          "slug": "tema-2-algebra",
-          "video": "https://www.youtube.com/embed/VIDEO_ID",
-          "content": "Explicación breve del tema 2 de matemáticas."
+          "title": "Tema 2 - Angulos Internos del Triangulo",
+          "slug": "tema-2-angulos-internos",
+          "video": "https://www.youtube.com/embed/mim05Nfu5KM",
+          "contenidos": [
+            "1) Introducción: Un triángulo es una figura geométrica de tres lados y tres vértices. En cada vértice se forma un ángulo interior, resultado de la intersección de dos lados que se encuentran en ese vértice. Los ángulos internos se miden en grados (°).",
+            "2) Conceptos básicos: Un ángulo es la apertura entre dos rectas o segmentos que se cortan en un punto común (el vértice). En un triángulo, existen exactamente tres ángulos internos, uno por cada vértice. La suma de los tres ángulos internos de cualquier triángulo es siempre 180°.",
+            "3) Notación y ejemplos: Si los ángulos internos son A, B y C, entonces: A + B + C = 180°. Ejemplo 1: Triángulo equilátero: A = B = C = 60°, por lo que 60° + 60° + 60° = 180°. Ejemplo 2: Triángulo rectángulo: A = 90°, B y C desconocidos, entonces 90° + B + C = 180°.",
+            "4) Demostraciones: Geométrica: Se dibuja una línea paralela a uno de los lados del triángulo a través del vértice opuesto. Los ángulos internos se transfieren a ángulos correspondientes en la línea paralela, mostrando que suman 180°. Por ángulos externos: Al extender un lado, el ángulo externo en ese vértice es igual a la suma de los otros dos ángulos internos.",
+            "5) Tipos de triángulos por ángulos: Acutángulo: todos los ángulos son menores de 90°. Rectángulo: uno de sus ángulos es 90°. Obtusángulo: uno de sus ángulos es mayor de 90°.",
+            "6) Tipos de triángulos por lados: Equilátero: todos los ángulos son 60°. Isósceles: dos ángulos iguales (opuestos a los lados iguales). Escaleno: todos los ángulos son diferentes.",
+            "7) Propiedades útiles: La suma de los ángulos internos siempre es 180°. Si hay una línea paralela a uno de sus lados, los ángulos internos se relacionan con ángulos alternos o correspondientes. Para medir se usan transportador, regla y compás. También se puede hallar un ángulo faltante: C = 180° - A - B.",
+            "8) Ejemplos detallados: Ejemplo 1: Triángulo equilátero: A = 60°, B = 60°, C = ? → C = 180° - 60° - 60° = 60°. Ejemplo 2: Triángulo rectángulo: A = 90°, B = 35°, C = ? → C = 180° - 90° - 35° = 55°. Ejemplo 3: Triángulo irregular: A = 45°, B = 70°, C = ? → C = 180° - 45° - 70° = 65°.",
+            "9) Aplicaciones prácticas: Construcción y diseño: asegurar triángulos con ángulos deseados. Arquitectura: cálculo de vigas y soportes. Programación gráfica: posiciones y rotaciones en triángulos para mallas y renderizados. Resolución de problemas geométricos: hallar ángulos faltantes usando la suma de ángulos.",
+            "10) Consejos para estudiar: Practicar con diferentes combinaciones de dos ángulos para encontrar el tercero. Visualizar con dibujos y verificar que la suma de los ángulos sea 180°. Usar herramientas dinámicas para mover vértices y observar cómo se mantiene la suma. Explicar primero con palabras simples antes de las demostraciones formales."
+          ] ,
+          "quiz": [
+            {
+          "pregunta": "¿Qué es un ángulo interno de un triángulo?",
+          "opciones": [
+            "El ángulo fuera del triángulo",
+            "El ángulo dentro del triángulo",
+            "El ángulo formado por la base y la altura"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "¿Cuál es la suma de los ángulos internos de cualquier triángulo?",
+          "opciones": [
+            "90°",
+            "360°",
+            "180°"
+          ],
+          "correcta": 2
+        },
+        {
+          "pregunta": "En un triángulo rectángulo, si un ángulo es 90° y otro 35°, ¿cuál es el tercero?",
+          "opciones": [
+            "55°",
+            "45°",
+            "60°"
+          ],
+          "correcta": 0
+        },
+        {
+          "pregunta": "¿Qué tipo de triángulo tiene todos sus ángulos menores de 90°?",
+          "opciones": [
+            "Rectángulo",
+            "Acutángulo",
+            "Obtusángulo"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "¿Cómo se puede hallar un ángulo faltante si se conocen los otros dos?",
+          "opciones": [
+            "C = 180° - A - B",
+            "C = A + B",
+            "C = 90° - A - B"
+          ],
+          "correcta": 0
+        },
+        {
+          "pregunta": "Si un triángulo tiene ángulos 50° y 60°, ¿cuál es el tercero?",
+          "opciones": [
+            "70°",
+            "80°",
+            "60°"
+          ],
+          "correcta": 0
+        },
+        {
+          "pregunta": "En un triángulo isósceles, ¿qué relación existe entre los ángulos?",
+          "opciones": [
+            "Todos son iguales",
+            "Dos ángulos son iguales",
+            "Ningún ángulo es igual"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "¿Qué tipo de triángulo tiene un ángulo mayor de 90°?",
+          "opciones": [
+            "Acutángulo",
+            "Obtusángulo",
+            "Rectángulo"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "¿Cuántos ángulos internos tiene un triángulo?",
+          "opciones": [
+            "Tres",
+            "Cuatro",
+            "Dos"
+          ],
+          "correcta": 0
+        },
+        {
+          "pregunta": "Para medir un ángulo interno, ¿qué instrumento se puede usar?",
+          "opciones": [
+            "Transportador",
+            "Cinta métrica",
+            "Compás de circunferencia"
+          ],
+          "correcta": 0
         }
-      ]
+          ]
+        }
+        ]
     },
     {
       "title": "Comunicación",
       "slug": "comunicacion",
       "topics": [
         {
-          "title": "Tema 1 - Estructura del texto",
-          "slug": "tema-1-estructura",
-          "video": "https://www.youtube.com/embed/VIDEO_ID",
-          "content": "Explicación breve sobre la estructura del texto."
+          "title": "Tema 1 - Verbo y Verboides",
+          "slug": "tema-1-verbo-y-verboides",
+          "video": "https://www.youtube.com/embed/hquLmsSN6rk",
+          "contenidos": [
+            "1) Verbos: Son las palabras que expresan acción, estado o proceso. Piensa en ellos como el motor de la oración: sin verbos, no hay 'historia' ni movimiento.",
+        "Acción: algo que alguien hace. Ejemplo: correr, saltar, escribir.",
+        "Estado: algo que alguien es o siente. Ejemplo: ser, estar, parecer.",
+        "Proceso: algo que ocurre poco a poco. Ejemplo: crecer, aprender, envejecer.",
+        "Conjugación: Los verbos cambian según persona (yo, tú, él…), número (singular, plural), tiempo (presente, pasado, futuro) y modo (indicativo, subjuntivo, imperativo). Ejemplos: Yo corro (presente), Tú corriste (pasado), Ellos correrán (futuro).",
+        "2) Verboides: Son formas del verbo que no se conjugan, es decir, no cambian según tiempo ni persona. Se usan como otras partes de la oración: sustantivo, adjetivo o adverbio.",
+        "a) Infinitivo: Es la forma 'pura' del verbo, terminando en -ar, -er, -ir. Funciona como sustantivo o aparece después de otro verbo. Ejemplos: cantar, comer, vivir, dormir. Usos: Como sujeto: 'Leer es divertido.' Después de otro verbo: 'Quiero viajar.' Expresando propósito: 'Salí a comprar pan.' Tip: si puedes poner 'el' antes del verbo y suena natural, normalmente es infinitivo: 'El comer es necesario.'",
+        "b) Gerundio: Termina en -ando, -iendo, -yendo y sirve para indicar acción en progreso o manera de hacer algo. Ejemplos: cantando, corriendo, leyendo, yendo. Usos: Acción que ocurre en el momento: 'Estoy estudiando.' Describe cómo se hace algo: 'Entró corriendo a la casa.' Forma tiempos compuestos (menos frecuente): 'Ha estado trabajando.' Tip: el gerundio no puede funcionar como sujeto, siempre acompaña a un verbo principal.",
+        "c) Participio: Termina en -ado, -ido (regulares) o en -to, -so, -cho (irregulares). Se usa para adjetivar o formar tiempos compuestos. Ejemplos: hablado, comido, hecho, escrito, puesto. Usos: Como adjetivo: 'La tarea terminada estaba sobre la mesa.' Para formar tiempos compuestos: 'He leído tu mensaje.' Puede funcionar con 'estar' para expresar estado: 'Estoy cansado.' Tip: si describe 'cómo está algo o alguien' o 'qué ha pasado', normalmente es participio."
+          ],
+          "quiz":[
+            {
+          "pregunta": "¿Qué son los verbos?",
+          "opciones": [
+            "Palabras que expresan acción, estado o proceso",
+            "Palabras que no cambian según tiempo",
+            "Palabras que siempre son sustantivos"
+          ],
+          "correcta": 0
+        },
+        {
+          "pregunta": "¿Cuál de estos es un verbo de acción?",
+          "opciones": [
+            "Ser",
+            "Correr",
+            "Parecer"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "¿Cuál de estos es un verbo de estado?",
+          "opciones": [
+            "Escribir",
+            "Crecer",
+            "Estar"
+          ],
+          "correcta": 2
+        },
+        {
+          "pregunta": "Los verboides se caracterizan por:",
+          "opciones": [
+            "Cambiar según persona y tiempo",
+            "No conjugarse y funcionar como sustantivo, adjetivo o adverbio",
+            "Solo aparecer en pasado"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "Ejemplo de infinitivo es:",
+          "opciones": [
+            "Comiendo",
+            "Comer",
+            "Comido"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "El gerundio sirve para indicar:",
+          "opciones": [
+            "Acción en progreso o manera de hacer algo",
+            "Estado permanente",
+            "Sujeto de la oración"
+          ],
+          "correcta": 0
+        },
+        {
+          "pregunta": "Participio regular termina en:",
+          "opciones": [
+            "-ando, -iendo",
+            "-ado, -ido",
+            "-ar, -er, -ir"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "Ejemplo de gerundio es:",
+          "opciones": [
+            "Corriendo",
+            "Correr",
+            "Corrió"
+          ],
+          "correcta": 0
+        },
+        {
+          "pregunta": "Para formar tiempos compuestos se usa:",
+          "opciones": [
+            "Infinitivo",
+            "Gerundio",
+            "Participio"
+          ],
+          "correcta": 2
+        },
+        {
+          "pregunta": "Tip para reconocer infinitivo:",
+          "opciones": [
+            "Se puede poner 'el' antes y suena natural",
+            "Siempre termina en -ando o -iendo",
+            "Describe cómo está alguien"
+          ],
+          "correcta": 0
+        }
+          ]
         }
       ]
     },
