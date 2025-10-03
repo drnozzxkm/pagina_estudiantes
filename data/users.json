@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "username": "Prueba",
+      "password": "scrypt:32768:8:1$LuQloJW4ghARMXfv$a909a5452abd14680311990f52c0e22f1cf4b127ef5234ed9d623f81c3d738e8eb17d84b6e87719a80caf27c0d4b18e61abd27f498bdc4e23d396876b090072f"
+    },
+    {
+      "username": "Gurbillon",
+      "password": "scrypt:32768:8:1$MHi8WPaE8o8M3ntN$be219e987550199197c43b3367c32e0c5c8b5f177c0330376c04ddb2e211e5f02696f5d230d9fb6eb41ff613de8d5ddaa2de2c2e1f01731a379d0e3af54822d9"
+    }
+  ]
+}

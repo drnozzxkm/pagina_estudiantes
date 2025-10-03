@@ -1,0 +1,173 @@
+{
+  "courses": [
+    {
+      "title": "Matemáticas",
+      "slug": "matematicas",
+      "topics": [
+        {
+          "title": "Tema 1 - Áreas",
+          "slug": "tema-1-areas",
+          "video": "https://www.youtube.com/embed/TZDgCnfDrIE",
+ "contenidos": [
+            "1) ¿Qué es el área? El área es la cantidad de superficie que ocupa una figura en el plano. En otras palabras, es el espacio dentro de los límites de la figura. En el video se enfatiza que, para determinar cuántos cuadritos de 1 cm por lado caben dentro de la figura, se puede contar una cuadrícula o usar fórmulas directas según la figura.",
+            "2) Enfoque práctico del video. Se presentan ejemplos simples para calcular el área de varias figuras comunes: Rectángulo, Cuadrado, Triángulo, Pentágono (regular), Hexágono (regular). El procedimiento típico es identificar las medidas clave (base, altura, lado, apotema, etc.), sustituir en la fórmula correspondiente y realizar las operaciones para obtener el área en unidades cuadradas.",
+            "3a) Triángulo. Fórmula: Área = (base × altura) ÷ 2. Ejemplo: Base = 5 cm, Altura = 8 cm. Cálculo: (5 × 8) ÷ 2 = 40 ÷ 2 = 20 cm². Interpretación: un triángulo con esas dimensiones ocupa 20 cuadritos de 1 cm².",
+            "3b) Rectángulo. Fórmula: Área = base × altura. Ejemplo: Base = 5 cm, Altura = 8 cm. Cálculo: 5 × 8 = 40 cm². Interpretación: un rectángulo de esas dimensiones tiene un área de 40 cm².",
+            "3c) Cuadrado. Fórmula: Área = lado × lado = lado². Ejemplo: Lado = 4 cm. Cálculo: 4 × 4 = 16 cm². Interpretación: un cuadrado de 4 cm por lado tiene 16 cm² de área.",
+            "3d) Pentágono regular. Fórmula: Área = (perímetro × apotema) ÷ 2. Perímetro = lado × 5 → 7 × 5 = 35 cm. Apotema = 5 cm. Cálculo: (35 × 5) ÷ 2 = 175 ÷ 2 = 87.5 cm². Interpretación: el pentágono descrito ocupa 87.5 cm².",
+            "3e) Hexágono regular. Fórmula: Área = (perímetro × apotema) ÷ 2. Perímetro = lado × 6 → 5 × 6 = 30 cm. Apotema ≈ 4.33 cm. Cálculo: (30 × 4.33) ÷ 2 = 129.9 ÷ 2 ≈ 64.95 cm². Interpretación: el hexágono descrito ocupa aproximadamente 64.95 cm².",
+            "Nota sobre la apotema: la apotema es la distancia desde el centro de un polígono regular hasta el medio de cualquiera de sus lados. Es útil para calcular áreas cuando se usa la fórmula de área basada en perímetro y apotema.",
+            "4) Resumen de ejemplos: Triángulo = 20 cm², Rectángulo = 40 cm², Cuadrado = 16 cm², Pentágono = 87.5 cm², Hexágono ≈ 64.95 cm².",
+            "5) Observaciones y puntos prácticos: Las fórmulas para las áreas de figuras simples son directas y se aplican sustituyendo valores. Para polígonos regulares se usa la relación Área = (Perímetro × Apotema) ÷ 2. El video muestra ejemplos con valores enteros y aproximaciones para la apotema.",
+            "6) Consejos para practicar: Cambia la base y la altura en triángulos para ver cómo varía el área. Usa rectángulos con diferentes dimensiones para confirmar que el producto es base × altura. Prueba cuadrados con lados distintos para comprobar que el área es lado². Para pentágonos y hexágonos, calcula el perímetro y usa la apotema adecuada."
+          ],  
+          "quiz": [
+    {
+      "pregunta": "¿Qué es el área?",
+      "opciones": [
+        "La longitud de un borde",
+        "El espacio dentro de una figura",
+        "La distancia de un lado"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la fórmula del área del rectángulo?",
+      "opciones": [
+        "Base + Altura",
+        "Lado × Lado",
+        "Base × Altura"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "La fórmula para calcular el área de un cuadrado es:",
+      "opciones": [
+        "Perímetro × Apotema ÷ 2",
+        "Base × Altura",
+        "Lado × Lado"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "Si un triángulo tiene base = 5 cm y altura = 8 cm, ¿cuál es su área?",
+      "opciones": [
+        "20 cm²",
+        "40 cm²",
+        "13 cm²"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué representa la apotema en un polígono regular?",
+      "opciones": [
+        "La altura del polígono",
+        "La distancia desde el centro hasta el medio de un lado",
+        "La longitud de un lado"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Un pentágono regular con lado = 7 cm y apotema = 5 cm tiene un área de:",
+      "opciones": [
+        "64.95 cm²",
+        "87.5 cm²",
+        "35 cm²"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Si un hexágono regular tiene lado = 5 cm y apotema ≈ 4.33 cm, ¿cuál es aproximadamente su área?",
+      "opciones": [
+        "87.5 cm²",
+        "64.95 cm²",
+        "40 cm²"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia principal entre la fórmula de áreas de polígonos regulares y figuras simples como triángulo o rectángulo?",
+      "opciones": [
+        "No hay diferencia",
+        "Las figuras simples requieren la apotema",
+        "Los polígonos regulares usan perímetro y apotema, las figuras simples usan base y altura"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "Para practicar el cálculo de áreas en triángulos, ¿qué se recomienda variar?",
+      "opciones": [
+        "Solo la base",
+        "Solo la altura",
+        "Base y altura"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "Enfoque práctico del video: ¿qué se debe identificar primero para calcular el área de cualquier figura?",
+      "opciones": [
+        "Las medidas clave como base, altura o apotema",
+        "El color de la figura",
+        "El número de figuras similares en la hoja"
+      ],
+      "correcta": 0
+    }
+  ]
+        },
+        {
+          "title": "Tema 2 - Álgebra",
+          "slug": "tema-2-algebra",
+          "video": "https://www.youtube.com/embed/VIDEO_ID",
+          "content": "Explicación breve del tema 2 de matemáticas."
+        }
+      ]
+    },
+    {
+      "title": "Comunicación",
+      "slug": "comunicacion",
+      "topics": [
+        {
+          "title": "Tema 1 - Estructura del texto",
+          "slug": "tema-1-estructura",
+          "video": "https://www.youtube.com/embed/VIDEO_ID",
+          "content": "Explicación breve sobre la estructura del texto."
+        }
+      ]
+    },
+    {
+      "title": "CCSS",
+      "slug": "ccss",
+      "topics": []
+    },
+    {
+      "title": "DPCC",
+      "slug": "dpcc",
+      "topics": []
+    },
+    {
+      "title": "EPT",
+      "slug": "ept",
+      "topics": []
+    },
+    {
+      "title": "Ciencia y Tecnologia",
+      "slug": "ciencia-tecnologia",
+      "topics": []
+    },
+    {
+      "title": "Arte",
+      "slug": "arte",
+      "topics": []
+    },
+    {
+      "title": "Religión",
+      "slug": "religion",
+      "topics": []
+    },
+    {
+      "title": "Inglés",
+      "slug": "ingles",
+      "topics": []
+    }
+  ]
+}

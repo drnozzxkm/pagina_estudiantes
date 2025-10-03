@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block title %}Iniciar sesión{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="auth-wrap">
+    <h1 class="site-title">Superando Retos, Alcanzando Sueños</h1>
+
+    <div class="auth-card">
+      <h2>Iniciar sesión</h2>
+      <form action="{{ url_for('login') }}" method="post">
+        <div class="auth-input">
+          <i>👤</i>
+          <input name="username" placeholder="Usuario" required />
+        </div>
+        <div class="auth-input">
+          <i>🔒</i>
+          <input name="password" type="password" placeholder="Contraseña" required />
+        </div>
+        <button class="btn-auth" type="submit">Entrar</button>
+      </form>
+
+      <div class="auth-actions" style="margin-top:14px;">
+        <a href="{{ url_for('register') }}">Crear cuenta</a>
+      </div>
+
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          <ul class="flashes">{% for m in messages %}<li>{{ m }}</li>{% endfor %}</ul>
+        {% endif %}
+      {% endwith %}
+    </div>
+  </div>
+</div>
+{% endblock %}

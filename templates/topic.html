@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}{{ topic.title }} - {{ course.title }}{% endblock %}
+{% block content %}
+<div class="layout single-topic">
+  <aside class="sidebar" id="sidebar">
+    <button id="toggleSidebar" class="sidebar-toggle">Cursos ▾</button>
+    <ul id="coursesList" class="courses-list"></ul>
+  </aside>
+  <section class="content-area topic-area">
+    <h2>{{ course.title }} - {{ topic.title }}</h2> 
+    <div class="video-wrap">
+      <iframe width="100%" height="360" src="{{ topic.video }}" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="topic-explanation">
+      {% for texto in topic.contenidos %}
+        <p>{{ texto }}</p>
+      {% endfor %}
+    </div>
+
+    <div class="survey-cta">
+      <a class="btn" href="/quiz/{{ course.slug }}/{{ topic.slug }}">
+        Ir a encuesta
+      </a>
+    </div>
+  </section>
+</div>
+{% endblock %}

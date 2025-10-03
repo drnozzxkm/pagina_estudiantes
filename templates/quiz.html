@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Encuesta — {{ topic.get('titulo', topic.get('title', 'Tema')) }}{% endblock %}
+{% block content %}
+<div class="content-area quiz-area">
+  <h2>Encuesta — {{ topic.get('titulo', topic.get('title', 'Tema')) }}</h2>
+
+  <form id="quizForm" action="{{ url_for('quiz_result', course_slug=course.slug, topic_slug=topic.slug) }}" method="post">
+    {% for q in quiz %}
+      <div class="quiz-question" data-index="{{ loop.index0 }}" data-correct="{{ q.correcta }}" style="display: none;">
+        <p><strong>{{ loop.index }}. {{ q.pregunta }}</strong></p>
+        <div class="quiz-options">
+          {% for op in q.opciones %}
+            <button type="button" class="quiz-option">{{ op }}</button>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+    <input type="hidden" name="correctCount" id="correctCount" value="0">
+    <input type="hidden" name="totalQuestions" value="{{ quiz|length }}">
+    <div style="margin-top:16px;">
+      <button type="button" id="nextBtn" class="btn">Siguiente</button>
+      <button type="submit" id="finishBtn" class="btn" style="display:none;">Finalizar</button>
+    </div>
+  </form>
+</div>
+{% endblock %}

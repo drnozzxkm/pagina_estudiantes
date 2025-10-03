@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Resultado de encuesta{% endblock %}
+{% block content %}
+<div class="content-area quiz-result-area">
+  <h2>Resultado de tu encuesta</h2>
+  <p>Respondiste correctamente <strong>{{ correct }}</strong> de <strong>{{ total }}</strong> preguntas.</p>
+  <p>{{ message }}</p>
+  <div style="margin-top:16px;">
+    <a href="{{ url_for('topic_page', course_slug=course_slug, topic_slug=topic_slug) }}" class="btn">Volver al tema</a>
+    <a href="{{ url_for('quiz_page', course_slug=course_slug, topic_slug=topic_slug) }}" class="btn btn--ghost">Reintentar</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}Panel principal{% endblock %}
+{% block content %}
+<div class="container">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>SUPERANDO RETOS, ALCANZANDO METAS</h1>
+      <p class="muted">Plataforma de recuperación académica: videos, explicaciones y encuestas para reforzar lo aprendido.</p>
+      <a class="cta" href="#cursos">Ver cursos</a>
+    </div>
+    <div class="hero-art">
+    </div>
+  </section>
+
+  <!-- LAYOUT -->
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <h3 id="cursos">Cursos</h3>
+      <ul id="coursesList" class="courses-list"></ul>
+    </aside>
+
+    <section class="content-area" id="contentArea">
+      <h2>Bienvenido, {{ user }}</h2>
+      <p class="muted">Selecciona un curso a la izquierda para ver sus temas.</p>
+      <div id="centerContent" style="margin-top:18px;">
+        <p class="muted">Aquí aparecerán los temas del curso seleccionado.</p>
+      </div>
+    </section>
+  </div>
+</div>
+{% endblock %}
