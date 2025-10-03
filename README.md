@@ -11,3 +11,4 @@ Notas:
 - Los videos de YouTube en data/courses.json deben usar el formato embed: https://www.youtube.com/embed/VIDEO_ID
 - La encuesta final está deshabilitada (botón disabled). La implementamos cuando quieras.
 "# pagina_estudiantes" 
+"# pagina_estudiantes" 
